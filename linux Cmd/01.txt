@@ -1,0 +1,119 @@
+1. File and Directory Management
+
+ls - List Directory Contents
+cd - Change Directory
+pwd - print working directory
+cp - Copy Files and Directories
+mv - Move or Rename Files and Directories
+rm - Remove Files and Directories
+mkdir - Make a New Directory
+rmdir - Remove a Directory
+touch - Create a New Empty File
+ln - Create a Hard Link
+touch - Create a New Empty File
+chmod - Change File Permissions
+chown - Change File Ownership
+chgrp - Change Group Ownership
+
+2. File and Directory Permissions
+chmod - Change File Permissions
+chown - Change File Ownership
+chgrp - Change Group Ownership
+umask - Set Default File Permissions
+getfacl - Get File Access Control List
+setfacl - Set File Access Control List
+acl - Manage Access Control Lists
+getent - Get File and Directory Information
+
+3.File Viewing and Editing
+cat - Concatenate and Display Files
+tac - Concatenate and Display Files in Reverse
+nl - Number Lines in a File
+more - Display a File One Screen at a Time
+less - Display a File One Screen at a Time
+head - Display the First Few Lines of a File
+tail - Display the Last Few Lines of a File
+grep - Search for a Pattern in a File
+sed - Stream Editor
+awk - Pattern Scanner and Text Processor
+ed - Line Editor
+vim - Visual Editor
+nano - Text Editor
+
+
+4. Process Management
+ps - Report a Snapshot of the Current Processes
+kill - Send a Signal to a Process
+killall - Send a Signal to a Process
+pkill - Send a Signal to a Process
+bg - Run a Command in the Background
+fg - Run a Command in the Foreground
+jobs - List Running Jobs
+wait - Wait for a Job to Finish
+nice - Run a Command with a Lower Priority
+renice - Change the Priority of a Running Process
+top - Display Real-Time System Information
+
+5.Disk Management
+df - Report File System Disk Space Usage
+du - Estimate File Space Usage
+fdisk - partition Table Editor
+mkfs - Create a File System
+mkfs.ext2 - Create an ext2 File System
+mkfs.ext3 - Create an ext3 File System
+mkfs.ext4 - Create an ext4 File System
+mkfs.xfs - Create an xfs File System
+mount - Mount a File System
+
+6.Networking
+ifconfig - Display Network Interface Information
+ip addr - Display Network Interface Information
+ip link - Display Network Interface Information
+netstat - Display Network Socket Information
+ss - Display Socket Statistics
+ssh - Secure Shell
+ssh-keygen - Generate Public/Private Keys
+ssh-agent - Start the Secure Shell Agent
+ssh-add - Add Identities to the Agent
+ssh-copy-id - Copy Identities to a Host
+ssh-remote - Remote Shell
+sshfs - Mount a Remote File System
+ssh-keyscan - Scan for Host Keys
+ssh-keygen - Generate Public/Private Keys
+ssh-agent - Start the Secure Shell Agent
+ssh-add - Add Identities to the Agent
+ssh-copy-id - Copy Identities to a Host
+
+
+7. package Management(depends on Distribution)
+Debian-based(ubuntu)
+
+sudo apt-get update
+sudo apt-get install package
+sudo apt-get remove package
+sudo apt-get purge package
+sudo apt-get autoremove
+sudo apt-get autoclean
+sudo apt-get dist-upgrade
+sudo apt-get full-upgrade
+sudo apt-get install -f
+sudo apt-get install -d
+sudo apt-get install -y
+sudo apt-get install -o
+sudo apt-get install -s
+sudo apt-get install -u
+sudo apt-get install -v
+sudo apt-get install -q
+sudo apt-get install -h
+ 
+
+ 8. System ShutDown and reboot
+ shutdown - Shut Down the System
+ shutdown -h - now - Shut Down the System Immediately
+ reboot -Reboot the System
+ halt - Halt the System
+ poweroff - Power Off the System
+ init 0 - Shut Down the System
+ init 6 - Reboot the System
+
+ 
